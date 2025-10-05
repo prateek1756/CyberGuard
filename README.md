@@ -2,8 +2,6 @@
 
 A modern, production-ready web app to help users stay safe online. CyberGuard brings real-time protection concepts like scam call blocking, phishing link scanning, fraud message detection, fake profile verification, deepfake detection UI, daily safety tips, and location-based scam alerts.
 
-Live preview (dev server): https://0db186e11da441b88a741dcc9064b1a9-d34958168a3544b0b313bd18e.projects.builder.codes
-
 ## Features
 
 - Scam call blocking (concept UI)
