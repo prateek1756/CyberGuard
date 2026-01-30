@@ -47,7 +47,7 @@ export default function DeepfakeDetection() {
 
   const checkApiConnection = async () => {
     try {
-      const response = await fetch('http://localhost:5001/api/deepfake/stats');
+      const response = await fetch('/api/deepfake/stats');
       if (response.ok) {
         const data = await response.json();
         setStats(data);
@@ -74,7 +74,7 @@ export default function DeepfakeDetection() {
       const formData = new FormData();
       formData.append('file', file);
       
-      const response = await fetch('http://localhost:5001/api/deepfake/analyze', {
+      const response = await fetch('/api/deepfake/analyze', {
         method: 'POST',
         body: formData
       });
@@ -118,7 +118,7 @@ export default function DeepfakeDetection() {
       formData.append('file', file);
       formData.append('is_deepfake', JSON.stringify(!isCorrect ? !result.is_deepfake : result.is_deepfake));
       
-      const response = await fetch('http://localhost:5001/api/deepfake/feedback', {
+      const response = await fetch('/api/deepfake/feedback', {
         method: 'POST',
         body: formData
       });

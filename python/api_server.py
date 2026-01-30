@@ -14,7 +14,8 @@ detector = DeepfakeDetector()
 detector.load_training_data()
 
 # Ensure upload directory exists
-UPLOAD_DIR = "uploads"
+import tempfile
+UPLOAD_DIR = os.path.join(tempfile.gettempdir(), "uploads")
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 @app.route('/api/deepfake/analyze', methods=['POST'])
@@ -111,4 +112,4 @@ def retrain_model():
 if __name__ == '__main__':
     print("Starting Deepfake Detection API...")
     print("Make sure to install dependencies: pip install -r requirements.txt")
-    app.run(host='0.0.0.0', port=8081, debug=True)
+    app.run(host='0.0.0.0', port=5001, debug=True)

@@ -25,7 +25,10 @@ class DeepfakeDetector:
             except:
                 print("Created new model")
         else:
-            os.makedirs(os.path.dirname(self.model_path), exist_ok=True)
+            try:
+                os.makedirs(os.path.dirname(self.model_path), exist_ok=True)
+            except OSError:
+                print("Warning: Could not create model directory (likely read-only filesystem). Running in ephemeral mode.")
             print("Created new model")
     
     def extract_features(self, image_path):

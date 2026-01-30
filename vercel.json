@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/api/deepfake/:path*", "destination": "/api/py_index.py" },
+    { "source": "/api/:path*", "destination": "/api/index.ts" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "functions": {
+    "api/py_index.py": {
+      "runtime": "python3.9",
+      "includeFiles": "python/**"
+    }
+  }
+}
