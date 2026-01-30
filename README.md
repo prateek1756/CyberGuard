@@ -1,12 +1,25 @@
-# CyberShakti
+# CyberShakti 🛡️
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9+-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18+-61dafb.svg)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-7+-646cff.svg)](https://vitejs.dev/)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/prateek1756/CyberGuard/ci.yml)](https://github.com/prateek1756/CyberGuard/actions)
 
-A modern, production-ready web application designed to help users stay safe online. CyberShakti provides comprehensive cybersecurity tools including real-time scam detection, AI-powered deepfake analysis, phishing protection, and educational safety tips.
+> **Empower yourself against online threats with AI-powered cybersecurity tools.**
+
+CyberShakti is a cutting-edge web application that leverages artificial intelligence to protect users from digital dangers. From detecting deepfakes to blocking phishing attempts, CyberShakti provides real-time security analysis and educational resources to help you stay safe in the digital world.
+
+![CyberShakti Demo](https://via.placeholder.com/800x400/0f172a/06b6d4?text=CyberShakti+Demo) <!-- Replace with actual demo image -->
+
+## ✨ Key Highlights
+
+- 🔍 **AI-Powered Detection**: Advanced machine learning for scam and deepfake detection
+- 🛡️ **Real-Time Protection**: Instant analysis of links, messages, and media
+- 📱 **Mobile-First Design**: Responsive interface that works on all devices
+- 🎓 **Educational Content**: Daily safety tips and best practices
+- 🚀 **Fast & Secure**: Built with modern web technologies for optimal performance
 
 ## 🚀 Features
 
@@ -291,5 +304,6 @@ For questions or support:
 ---
 
 **Stay safe online! 🛡️**
-#   C y b e r S h a k t i  
+#   C y b e r S h a k t i 
+ 
  
