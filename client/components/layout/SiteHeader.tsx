@@ -57,9 +57,31 @@ export default function SiteHeader() {
               <PhoneOff className="mr-2 h-4 w-4" /> Try Web Tools
             </Link>
           </Button>
-          <Button asChild size="sm">
-            <a href="#download">Get the App</a>
-          </Button>
+          <div
+            href="https://0b0db292af8145cabf7e9eb442f42cc7-br-ac2a54703baf4714912ce1bcc.fly.dev/phishing-scanner?reload=1769792378668#download"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              backgroundColor: "rgba(36, 222, 180, 1)",
+              borderRadius: "6px",
+              color: "rgb(235, 255, 248)",
+              fontSize: "14px",
+              fontWeight: "500",
+              gap: "8px",
+              height: "36px",
+              justifyContent: "center",
+              lineHeight: "20px",
+              textWrap: "nowrap",
+              transitionDuration: "0.15s",
+              transitionProperty:
+                "color, background-color, border-color, text-decoration-color, fill, stroke",
+              transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
+              whiteSpace: "nowrap",
+              padding: "0 12px",
+            }}
+          >
+            Get the App
+          </div>
         </div>
       </div>
     </header>
