@@ -1,4 +1,8 @@
 {
+  "buildCommand": "npm run build:client",
+  "outputDirectory": "dist/spa",
+  "installCommand": "npm install",
+  "framework": "vite",
   "rewrites": [
     { "source": "/api/deepfake/:path*", "destination": "/api/py_index.py" },
     { "source": "/api/:path*", "destination": "/api/index.ts" },
@@ -6,8 +10,31 @@
   ],
   "functions": {
     "api/py_index.py": {
-      "runtime": "python3.9",
-      "includeFiles": "python/**"
+      "runtime": "python3.11",
+      "includeFiles": "python/**",
+      "maxDuration": 60
+    },
+    "api/index.ts": {
+      "maxDuration": 30
     }
-  }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ]
 }

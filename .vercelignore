@@ -1,0 +1,47 @@
+# Python virtual environment
+python/venv/
+python/__pycache__/
+python/uploads/
+python/models/*.pkl
+python/models/*.h5
+python/models/*.pt
+
+# Node modules (will be installed by Vercel)
+node_modules/
+
+# Build outputs (will be generated)
+dist/
+
+# Development files
+*.log
+*.bat
+start.bat
+setup.bat
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files (use Vercel environment variables instead)
+.env
+.env.local
+.env.*.local
+
+# Git
+.git/
+.gitignore
+
+# Documentation (optional - can be included if needed)
+*.md
+!README.md
+
+# Test files
+**/*.spec.ts
+**/*.test.ts
+**/__tests__/
+
+# Lock files (Vercel will use package.json)
+pnpm-lock.yaml
+package-lock.json

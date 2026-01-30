@@ -7,4 +7,5 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '../python'))
 from api_server import app
 
 # Vercel expects a 'handler' or 'app' variable.
-# Flask's 'app' is WSGI compatible.
+# Flask's 'app' is WSGI compatible and can be used directly by Vercel.
+handler = app

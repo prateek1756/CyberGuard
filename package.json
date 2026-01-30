@@ -1,7 +1,27 @@
 {
   "name": "cyberguard",
+  "version": "1.0.0",
+  "description": "AI-powered cybersecurity tools for detecting deepfakes, phishing, and fraud",
   "private": true,
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prateek1756/CyberGuard.git"
+  },
+  "homepage": "https://github.com/prateek1756/CyberGuard#readme",
+  "bugs": {
+    "url": "https://github.com/prateek1756/CyberGuard/issues"
+  },
+  "keywords": [
+    "cybersecurity",
+    "deepfake-detection",
+    "phishing-scanner",
+    "fraud-detection",
+    "ai",
+    "machine-learning",
+    "react",
+    "typescript"
+  ],
   "pkg": {
     "assets": [
       "dist/spa/*"
