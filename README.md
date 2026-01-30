@@ -5,13 +5,31 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9+-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18+-61dafb.svg)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-7+-646cff.svg)](https://vitejs.dev/)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/prateek1756/CyberGuard/ci.yml)](https://github.com/prateek1756/CyberGuard/actions)
+[![GitHub Stars](https://img.shields.io/github/stars/prateek1756/CyberGuard)](https://github.com/prateek1756/CyberGuard/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/prateek1756/CyberGuard)](https://github.com/prateek1756/CyberGuard/network/members)
 
 > **Empower yourself against online threats with AI-powered cybersecurity tools.**
 
 CyberShakti is a cutting-edge web application that leverages artificial intelligence to protect users from digital dangers. From detecting deepfakes to blocking phishing attempts, CyberShakti provides real-time security analysis and educational resources to help you stay safe in the digital world.
 
-![CyberShakti Demo](https://via.placeholder.com/800x400/0f172a/06b6d4?text=CyberShakti+Demo) <!-- Replace with actual demo image -->
+## 📋 Table of Contents
+
+- [✨ Key Highlights](#-key-highlights)
+- [🚀 Features](#-features)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [📁 Project Structure](#-project-structure)
+- [🚀 Getting Started](#-getting-started)
+- [🧪 Testing & Quality](#-testing--quality)
+- [🌐 API Endpoints](#-api-endpoints)
+- [🎨 Customization](#-customization)
+- [🚀 Deployment](#-deployment)
+- [🗺️ Implementation Roadmap](#️-implementation-roadmap)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [⚠️ Security Disclaimer](#️-security-disclaimer)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [📞 Support](#-support)
+- [❓ FAQ](#-faq)
 
 ## ✨ Key Highlights
 
@@ -20,6 +38,18 @@ CyberShakti is a cutting-edge web application that leverages artificial intellig
 - 📱 **Mobile-First Design**: Responsive interface that works on all devices
 - 🎓 **Educational Content**: Daily safety tips and best practices
 - 🚀 **Fast & Secure**: Built with modern web technologies for optimal performance
+- 🌟 **Open Source**: Free and community-driven cybersecurity education
+
+## 📸 Screenshots
+
+### Homepage
+![Homepage Screenshot](https://via.placeholder.com/800x400/0f172a/06b6d4?text=Homepage+Screenshot) <!-- Replace with actual screenshot -->
+
+### Deepfake Detection
+![Deepfake Detection Screenshot](https://via.placeholder.com/800x400/0f172a/06b6d4?text=Deepfake+Detection) <!-- Replace with actual screenshot -->
+
+### Phishing Scanner
+![Phishing Scanner Screenshot](https://via.placeholder.com/800x400/0f172a/06b6d4?text=Phishing+Scanner) <!-- Replace with actual screenshot -->
 
 ## 🚀 Features
 
