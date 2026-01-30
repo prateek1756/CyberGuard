@@ -1,4 +1,4 @@
-# CyberGuard AI Deepfake Detection
+# CyberShakti AI Deepfake Detection
 
 ## Quick Setup
 

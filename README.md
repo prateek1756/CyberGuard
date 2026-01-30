@@ -1,4 +1,4 @@
-# CyberGuard
+# CyberShakti
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
@@ -6,7 +6,7 @@
 [![React](https://img.shields.io/badge/React-18+-61dafb.svg)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-7+-646cff.svg)](https://vitejs.dev/)
 
-A modern, production-ready web application designed to help users stay safe online. CyberGuard provides comprehensive cybersecurity tools including real-time scam detection, AI-powered deepfake analysis, phishing protection, and educational safety tips.
+A modern, production-ready web application designed to help users stay safe online. CyberShakti provides comprehensive cybersecurity tools including real-time scam detection, AI-powered deepfake analysis, phishing protection, and educational safety tips.
 
 ## 🚀 Features
 
@@ -33,7 +33,7 @@ A modern, production-ready web application designed to help users stay safe onli
 - **Progressive Web App**: Installable on mobile devices
 - **Offline Support**: Core features work without internet
 
-> ⚠️ **Important**: CyberGuard's scanners are heuristic demos for educational purposes and are NOT substitutes for professional security tools. Always verify with trusted sources.
+> ⚠️ **Important**: CyberShakti's scanners are heuristic demos for educational purposes and are NOT substitutes for professional security tools. Always verify with trusted sources.
 
 ## 🛠️ Tech Stack
 
@@ -271,7 +271,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## ⚠️ Security Disclaimer
 
-CyberGuard is an educational demonstration project. The security tools provided are for learning purposes only and should not be relied upon for critical security decisions. Always consult professional security services and verify information with trusted sources.
+CyberShakti is an educational demonstration project. The security tools provided are for learning purposes only and should not be relied upon for critical security decisions. Always consult professional security services and verify information with trusted sources.
 
 ## 🙏 Acknowledgments
 
@@ -291,3 +291,5 @@ For questions or support:
 ---
 
 **Stay safe online! 🛡️**
+#   C y b e r S h a k t i  
+ 

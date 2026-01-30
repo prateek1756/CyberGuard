@@ -14,7 +14,7 @@ export function createServer() {
 
   // Example API routes
   app.get("/api/ping", (_req, res) => {
-    const ping = process.env.PING_MESSAGE ?? "CyberGuard API is running";
+    const ping = process.env.PING_MESSAGE ?? "CyberShakti API is running";
     res.json({ message: ping, timestamp: new Date().toISOString() });
   });
 

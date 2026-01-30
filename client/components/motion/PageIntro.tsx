@@ -45,7 +45,7 @@ export default function PageIntro() {
             }}
             className="mt-6 bg-gradient-to-r from-primary via-accent to-white bg-clip-text text-2xl font-bold text-transparent"
           >
-            CyberGuard
+            CyberShakti
           </motion.div>
         </motion.div>
       )}

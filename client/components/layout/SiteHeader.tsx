@@ -17,7 +17,7 @@ export default function SiteHeader() {
             <Shield className="relative h-7 w-7 text-primary" />
           </div>
           <span className="bg-gradient-to-r from-primary via-accent to-white bg-clip-text text-lg font-bold text-transparent">
-            CyberGuard
+            CyberShakti
           </span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">

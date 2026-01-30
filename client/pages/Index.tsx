@@ -82,7 +82,7 @@ export default function Index() {
         >
           <h1 className="relative max-w-5xl">
             <span className="block text-6xl font-black leading-tight md:text-8xl text-foreground">
-              CyberGuard
+              CyberShakti
             </span>
             <span className="mt-2 block text-2xl font-semibold md:text-3xl text-foreground">
               AI-Powered Digital Shield

@@ -7,7 +7,7 @@ export default function SiteFooter() {
         <div className="space-y-3">
           <div className="flex items-center gap-2">
             <Shield className="h-5 w-5 text-primary" />
-            <span className="text-sm font-semibold">CyberGuard</span>
+            <span className="text-sm font-semibold">CyberShakti</span>
           </div>
           <p className="text-sm text-muted-foreground">
             Real-time protection from scams, phishing, and deepfakes. Built for
@@ -49,7 +49,7 @@ export default function SiteFooter() {
       </div>
       <div className="border-t py-4">
         <div className="container flex items-center justify-between text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} CyberGuard. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} CyberShakti. All rights reserved.</p>
           <p>Security first. Privacy by design.</p>
         </div>
       </div>
