@@ -73,7 +73,8 @@ export default function SiteHeader() {
               lineHeight: "20px",
               textWrap: "nowrap",
               transitionDuration: "0.15s",
-              transitionProperty: "color, background-color, border-color, text-decoration-color, fill, stroke",
+              transitionProperty:
+                "color, background-color, border-color, text-decoration-color, fill, stroke",
               transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
               whiteSpace: "nowrap",
               padding: "0 12px",
